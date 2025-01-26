@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akane Birthday Namer</title>
+</head>
+<body>
+    <h1>Akane Birthday Namer</h1>
+    <form id="birthdayNamerForm">
+        <label for="day">Day of Birth:</label>
+        <input type="number" id="day" name="day" placeholder="Enter day" min="1" max="31" required>
+        <br><br>
+
+        <label for="month">Month of Birth:</label>
+        <input type="number" id="month" name="month" placeholder="Enter month" min="1" max="12" required>
+        <br><br>
+
+        <label for="year">Year of Birth:</label>
+        <input type="number" id="year" name="year" placeholder="Enter year" min="1950" max="2025" required>
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+             </select>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="generatedName"></div>
+<link rel="stylesheet" href="style.css">
+<script src="test.js"></script>
+</body>
+</html>
+
