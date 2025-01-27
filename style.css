@@ -3,16 +3,22 @@ body{
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-image-resolution: ;
+image-resolution: 600dpi snap ;
 
 }
 h1{background-color: antiquewhite;
-border-width: 30%;
-
-}
+border-width: 30%;}
 
 
 button{
     color: purple;
 }
-p{background-color: antiquewhite;}
+
+p{background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    
+}
+.container .form{border-radius: 30%;
+
+}

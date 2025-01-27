@@ -11,7 +11,7 @@ document.getElementById('birthdayNamerForm').addEventListener('submit', function
     const date = new Date(`${year}-${month}-${day}`);
     const dayOfWeek = date.getDay(); 
 
-    // naming
+    // naming according to the input date,month an year
     let name ="";
     
 
